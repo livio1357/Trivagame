@@ -119,6 +119,9 @@ newbutton.addEventListener('click', function () {
 	New()
 });
 
-function NewGame() {
-    location.reload();
-}	
+
+$('#NewGame').click(function(){
+            $('#quiz')[0].reset();
+            location.reload();
+ });
+
