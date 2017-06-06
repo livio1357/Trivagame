@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EMOJI QUIZ</title>
+		<link rel='shortcut icon' href='' type='image/x-icon'/ >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
+</head>
+<body>
+<div class="row">
+		<div class="col-md-12">
+			<h1 class="text-center" id="title">EMOJI QUIZ</h1>
+			<button id="start" class="center-block btn-info btn-lg">Start</button>
+			<p id="Gametimer">Timer: <span id="timer"></span></p>
+		</div>
+	</div>
+
+	</br>
+
+	<div class="row text-center">
+		<div class="col-md-2"></div>
+		<div class="col-md-8" id="main-form">
+	
+<form id="quiz" name="quiz">
+	<p> Is this the rocket emoji <img src="https://www.emojibase.com/resources/img/emojis/apple/x1f680.png.pagespeed.ic.V3lDCxrecC.png" height="25px" width="25px"> 
+	</p>  
+  <input type="radio" id="mc" name="question1" value="YES" > Yes<br>
+ <input type="radio" id="mc" name="question1" value="NO" > No<br>
+
+
+ 	<p> Is this the pizza emoji <img src="https://s-media-cache-ak0.pinimg.com/originals/18/4c/06/184c062468ab314213cc45d3fa772f55.png" height="25px" width="25px"> 
+ 	</p>  
+  <input type="radio" id="mc" name="question2" value="YES" > Yes<br>
+ <input type="radio" id="mc" name="question2" value="NO" > No<br>
+
+ 	<p> Is this the get drunk emoji <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Beer_Emoji_large.png?v=1480481062" height="25px" width="25px"> 
+ 	</p>  
+  <input type="radio" id="mc" name="question3" value="YES" > Yes<br>
+ <input type="radio" id="mc" name="question3" value="NO" > No<br>
+
+ 	<p> Is this the happy face emoji <img src="https://s-media-cache-ak0.pinimg.com/originals/a4/6c/d7/a46cd756082e445bf188419552ca1e21.png" height="25px" width="25px"> 
+ 	</p>  
+  <input type="radio" id="mc" name="question4" value="YES" > Yes<br>
+ <input type="radio" id="mc" name="question4" value="NO" > No<br>
+
+ 	<p> Is this the red heart emoji <img src="https://s-media-cache-ak0.pinimg.com/originals/28/23/16/28231630e0938644a00cfbee30b60745.gif" height="25px" width="25px">
+  	</p>  
+  <input type="radio" id="mc" name="question5" value="YES" > Yes<br>
+ <input type="radio" id="mc" name="question5" value="NO" > No<br>
+
+ <input type="button" class="center-block btn btn-md" name="results" id="resultsButton" value="submit" onclick="check();">
+  
+</form> 
+
+<div id="afterSubmit">
+	<p id="numberCorrect" ></p>
+	<p id="numberIncorrect" ></p>
+
+
+</div>
+
+
+
+
+</div> </div> </div>
+
+
+<div>
+	<button id="NewGame" class="btn-success btn-lg" onclick="NewGame()">New Game</button>
+	
+
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

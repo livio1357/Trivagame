@@ -1,0 +1,38 @@
+body{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_j7Sf9WZBX-Na9fGofgBj21ceN6aN9oDJE7p2mCSyxngUPhFn_A");
+}
+
+p{
+	color:white;
+}
+
+#mc{
+	color: white;
+}
+
+#NewGame{
+	margin-top: -400px;
+ 	margin-left: 50px;
+ 	float: left;
+ 	display: none;
+}
+
+#Gametimer {
+	text-align: center;
+ 	display: none;
+}
+
+#quiz{
+ 	background-color: grey;
+	display: none;
+}
+
+#afterSubmit{
+	background-color: grey;
+}
+
+#numberCorrect{
+}
+
+
+
